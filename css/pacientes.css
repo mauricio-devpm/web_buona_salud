@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    /* formateo primera y segunda linea iconos */
+    font-family: arial, Helvetica, sans-serif;
+}
+
+.contenedor-header {
+    width: 100%;
+    display: flex;
+}
+
+.contenedor-logo {
+    width: 20%;
+}
+
+.logo-empresa {
+    /* formateo logo empresa */
+    width: 50%;
+    margin-top: 3px;
+    padding: 5px;
+}
+
+.bienvenido {
+    color: blueviolet;
+    font-weight: 300;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.pacientes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video {
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.agenda {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contenedor-agenda {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.agenda-empresa {
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+footer,
+.link {
+    background-color: blueviolet;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.boton-up {
+    position: fixed !important;
+    font-size: 30px !important;
+    bottom: 30px !important;
+    background: #5c6b9f !important;
+    color: white !important;
+    right: 18px !important;
+    border-radius: 60px !important;
+    line-height: 55px !important;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0 0.3) !important;
+    z-index: 100 !important;
+    width: 55px !important;
+    height: 55px !important;
+    text-align: center !important;
+}
+
+.boton-up:hover {
+    text-decoration: none !important;
+    transition: ease-in-out .2s !important;
+    background-image: linear-gradient(to bottom left, blueviolet 25%, #0095ff 95%) !important;
+}
